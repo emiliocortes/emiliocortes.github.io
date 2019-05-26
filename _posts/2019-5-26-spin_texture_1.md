@@ -1,4 +1,9 @@
-# Pymatgen
+---
+layout: post
+title: Calculate spin texture and band structure
+---
+
+## Pymatgen
 ### Obtain high-symmetry paths in reciprocal space for bandstructure calculations
 ```
 from pymatgen.symmetry.bandstructure import HighSymmKpath
@@ -9,7 +14,7 @@ kpath.get_kpoints()
 lines = kpath.get_kpoints()
 ```
 
-# Pyprocar
+## Pyprocar
 ### Spin texture: Read PROCAR from a Spin-orbit calculation
 ```
 import pyprocar
